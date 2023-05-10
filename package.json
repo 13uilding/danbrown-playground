@@ -1,0 +1,32 @@
+{
+  "name": "danbrown-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf build/*",
+    "build": "tsc --build",
+    "main": "node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13uilding/danbrown-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/13uilding/danbrown-playground/issues"
+  },
+  "homepage": "https://github.com/13uilding/danbrown-playground#readme",
+  "dependencies": {
+    "@octokit/core": "^4.2.0",
+    "console-stamp": "^3.1.1",
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "tsc-watch": "^6.0.4"
+  }
+}
